@@ -5,17 +5,17 @@ import "./POPOSpace.css";
 function POPOSSpace(props) {
   const { name, image, address, hours, id } = props;
   return (
-    <div className="POPOSSpace">
+    <section className="POPOSSpace" role="article">
       <h1>
         {" "}
-        <Link className="POPOSSpace-title" // add a class name!
+        <Link className="POPOSSpace-title" role="title"// add a class name!
 				to={`/details/${id}`}>
 				{name}</Link>
       </h1>
 
       <div className="POPOSSpace-info">
-      <div>{address}</div>
-      <div>{hours}</div>
+      <p>{address}</p>
+      <p>{hours}</p>
       </div>
       
       <Link to={`/details/${id}`}>
@@ -23,10 +23,10 @@ function POPOSSpace(props) {
           src={`${process.env.PUBLIC_URL}images/${image}`}
           width="300"
           height="300"
-          alt="Hello"
+          alt="Public-img"
         />
       </Link>
-    </div>
+    </section>
   );
 }
 

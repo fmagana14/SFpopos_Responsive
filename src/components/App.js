@@ -4,7 +4,7 @@ import "./title/Title";
 // import POPOSList from "./POPOSList/POPOSList";
 import { Outlet } from "react-router-dom";
 import Title from "./title/Title";
-import Footer from "../Footer";
+import Footer from "./footer/Footer";
 // import POPOSDetails from './POPOSDetails'
 
 function App() {

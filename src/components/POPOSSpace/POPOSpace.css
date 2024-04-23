@@ -27,14 +27,15 @@
 }
 
 .POPOSSpace .POPOSSpace-info {
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	text-align: right;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  text-align: right;
 }
 
-.POPOSSpace .POPOSSpace-info div {
-	display: inline-block;
-	padding: 0.25em 0.5em;
-	background-color: rgba(255, 255, 255, 0.9);
+.POPOSSpace .POPOSSpace-info p {
+  display: inline-block;
+  padding: 0.25em 0.2em;
+  background-color: rgba(255, 255, 255, 0.9);
+  margin: 0;
 }

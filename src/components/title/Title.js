@@ -9,11 +9,11 @@ function Title() {
     <div className="Title">
       <header>
         <h1>SFPOPOS</h1>
-        <div className="Title-Subtitle">
+        <p className="Title-Subtitle">
           San Francisco Privately Owned Public Open Spaces
-        </div>
+        </p>
 
-        <div>
+        <nav role="navigation">
           <NavLink
             className={({ isActive }) =>
               isActive ? "nav-link-active" : "nav-link"
@@ -30,7 +30,7 @@ function Title() {
           >
             About
           </NavLink>
-        </div>
+        </nav>
       </header>
     </div>
   );

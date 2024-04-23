@@ -28,7 +28,7 @@ function POPOSList() {
 
     
   return (
-    <div className="POPOSList">
+    <section className="POPOSList">
 			<form>
 				<input
 					value={query}
@@ -38,7 +38,7 @@ function POPOSList() {
 				<button type="submit">Submit</button>
 			</form>
 			{spaces}
-    </div>
+    </section>
   )
 };
 

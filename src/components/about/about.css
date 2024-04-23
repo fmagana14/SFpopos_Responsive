@@ -1,0 +1,11 @@
+.aboutTitle {
+  text-align: center;
+  height: auto;
+}
+
+.aboutInfo {
+  margin: 0 auto;
+  max-width: 50%;
+  padding-bottom: 28%;
+}
+/* fix padding/footer */

@@ -11,7 +11,7 @@ function POPOSDetails(props) {
   const { images, title, desc, hours, features, geo } = data[id];
 
   return (
-    <div className="POPOSDetails">
+    <section className="POPOSDetails">
       <div className="POPOSDetails-image">
         <img src={`${process.env.PUBLIC_URL}images/${images[0]}`} alt={title} />
       </div>
@@ -25,7 +25,7 @@ function POPOSDetails(props) {
           {geo.lat} {geo.lon}
         </p>
       </div>
-    </div>
+    </section>
   );
 }
 
