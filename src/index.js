@@ -7,7 +7,7 @@ import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import About from "./components/about/About";
 import POPOSList from "./components/POPOSList/POPOSList";
 import POPOSDetails from "./components/POPOSDetails/POPOSDetails";
-
+import Newsletter from "./components/newsletter/Newsletter";
 
 // Define your root element
 const rootElement = document.getElementById("root");
@@ -21,6 +21,7 @@ root.render(
         <Route path="/" element={<POPOSList />} />
         <Route path="/about" element={<About />} />
         <Route path="/details/:id" element={<POPOSDetails />} />
+        <Route path="/newsletter" element={<Newsletter/>} />
       </Route>
     </Routes>
   </Router>,

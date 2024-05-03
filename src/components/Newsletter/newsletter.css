@@ -1,0 +1,113 @@
+
+.newsletterForm {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(30, 30, 30);
+}
+
+.newsletterForm > div:not(.newsletterTitle) {
+    font-size: 1.2em;
+}
+
+.usernameWrapper {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px;
+    margin: auto;
+    width: 10em;
+}
+
+.usernameWrapper > label, .passwordWrapper > label {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1.2em;
+}
+
+.checkboxWrapper {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.passwordWrapper {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px;
+    margin: auto;
+    width: 10em;
+}
+
+
+
+.newsletterSubmit {
+    display: flex;
+    justify-content: center;
+    padding: 0.5em;
+	margin: 1em;
+	border: 1px solid;
+    border-radius: 0.5em;
+	font-size: 1rem;
+    width: 20vw;
+    margin: auto;
+
+	margin-top: 20px;
+	padding: 10px 20px;
+	color: #fff;
+    background-color: #4682b4;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+
+.newsletterForm:not(.newsletterTitle) {
+    background-color: rgb(30, 30, 30);
+    border: 1px solid;
+    border-radius: 20px;
+    width: 50vw;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.newsletterSubmit:hover {
+	cursor: pointer;
+	background-color: #335d73;
+}
+
+@media only screen and (max-width: 960px) {
+    .newsletterForm {
+        padding: 0 1em;
+    }
+    .newsletterForm > div:not(.newsletterTitle) {
+        font-size: 1.2em;
+        max-width: 70%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .newsletterForm {
+        padding: 0 1em;
+    }
+    .newsletterForm > div:not(.newsletterTitle) {
+        font-size: 1em;
+        max-width: 90%;
+    }
+
+    .usernameWrapper {
+        width: 50vw;
+    }
+    
+    .usernameWrapper > label, .passwordWrapper > label {
+        font-size: 1.2em;
+    }
+    
+    .passwordWrapper {
+        width: 50vw;
+    }
+
+    .newsletterForm:not(.newsletterTitle) {
+        width: 90vw;
+    }
+}

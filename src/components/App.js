@@ -5,7 +5,7 @@ import "./title/Title";
 import { Outlet } from "react-router-dom";
 import Title from "./title/Title";
 import Footer from "./footer/Footer";
-// import POPOSDetails from './POPOSDetails'
+import Newsletter from "./newsletter/Newsletter";
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
       <Title />
       <Outlet />
       <Footer />
+      <Newsletter />
     </div>
   );
 }

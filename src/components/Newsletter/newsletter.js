@@ -1,5 +1,5 @@
-import React, {useState} from "react";
-import "./newsletter.css";
+import React, { useState } from "react";
+import "./Newsletter.css";
 
 function Newsletter() {
   const [isChecked, setIsChecked] = useState(true);
@@ -9,7 +9,11 @@ function Newsletter() {
   };
 
   return (
-    <section aria-label="Newsletter sub form">
+    // aria-label="Enter your password"
+    // aria-label="Newsletter sub form"
+    // aria-label="Enter your username"
+
+    <section>
       <form>
         <h1 className="newsletterTitle" aria-level="1">
           Join out Newsletter!
@@ -21,7 +25,6 @@ function Newsletter() {
             id="username"
             className="username"
             placeholder="your username"
-            aria-label="Enter your username"
             required
           />
         </div>
@@ -32,7 +35,6 @@ function Newsletter() {
             id="password"
             className="password"
             placeholder="Enter here"
-            aria-label="Enter your password"
             required
           />
         </div>
